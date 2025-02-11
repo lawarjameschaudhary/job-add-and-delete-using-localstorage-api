@@ -3,6 +3,8 @@ import Detailsof from './Detailsof';
 import { Route, Routes } from 'react-router-dom';
 import Edit from './Edit';
 import Add from './add';
+import DetailPage from './DetailPage';
+// import Home from './Home';
 
 const Products = React.memo(() => {
   const [detail, setDetail] = useState([]);
@@ -24,7 +26,9 @@ const Products = React.memo(() => {
   return (
     <div className="flex justify-center h-full items-center">
       <Routes>
-        <Route path='/' element={<Detailsof />} />
+        {/* <Route path='/' element={<Home />} /> */}
+      <Route path="/" element={<Detailsof />} />
+      <Route path="/details/:description" element={<DetailPage />} />
         <Route path="/edit/:id" element={<Edit />} />
         <Route path="/add" element={<Add />} />
       </Routes>

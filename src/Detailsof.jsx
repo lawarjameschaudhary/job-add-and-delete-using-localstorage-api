@@ -89,7 +89,9 @@ const Detailsof = () => {
               {data.map((item) => (
                 <tr key={item.id} className=" border border-gray-300 hover:bg-gray-50">
                   <td className="border border-gray-300 px-4 py-2">{item.id}</td>
-                  <td className="border border-gray-300 px-4 py-2">{item.description}</td>
+                  <td className="border border-gray-300 px-4 py-2"><NavLink to={`/details/${encodeURIComponent(item.description)}`} className="hover:text-blue-700">
+                      {item.description}
+                    </NavLink></td>
                   <td className="border border-gray-300 px-4 py-2">{item.start}</td>
                   <td className="border border-gray-300 px-4 py-2">{item.end}</td>
                   <td className={`border border-gray-300 px-4 py-2 ${setStatusColor(item.status)}`}>

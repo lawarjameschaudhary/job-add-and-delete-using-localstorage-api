@@ -66,18 +66,18 @@
       "status": "on going"
     },
     {
-      "id": "10",
-      "description": "Backend developer",
-      "start": "2025-02-01",
-      "end": "2025-02-28",
-      "status": "on going"
-    },
-    {
       "id": "11",
       "description": "Chairman",
       "start": "2025-01-10",
       "end": "2025-02-28",
       "status": "Completed !!"
+    },
+    {
+      "id": "45",
+      "description": "hjjhjj",
+      "start": "2025-02-06",
+      "end": "2025-02-19",
+      "status": "on going"
     }
   ]
 }
