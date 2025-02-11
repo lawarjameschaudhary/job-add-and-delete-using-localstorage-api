@@ -1,0 +1,48 @@
+{
+  "details": [
+    {
+      "id": "4",
+      "description": "Mechanics ",
+      "start": "2025-10-28",
+      "end": "2025-02-25",
+      "status": "On Going",
+      "deadline": "3434343"
+    },
+    {
+      "id": "68",
+      "description": "Nurse",
+      "start": "2025-02-02",
+      "end": "2025-02-20",
+      "status": "Completed !!",
+      "deadline": "439439839"
+    },
+    {
+      "id": "123",
+      "description": "Something",
+      "start": "2025-02-11",
+      "end": "2025-02-15",
+      "status": "Rejected !"
+    },
+    {
+      "id": "122",
+      "description": "Hr manager",
+      "start": "2025-02-07",
+      "end": "2025-02-16",
+      "status": "in progress"
+    },
+    {
+      "id": "1",
+      "description": "CEO",
+      "start": "2025-02-12",
+      "end": "2025-02-13",
+      "status": "in review"
+    },
+    {
+      "id": "343",
+      "description": "HR",
+      "start": "2025-01-03",
+      "end": "2025-02-15",
+      "status": "Pending..."
+    }
+  ]
+}
