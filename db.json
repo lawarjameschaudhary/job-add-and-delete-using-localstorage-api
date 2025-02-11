@@ -43,6 +43,13 @@
       "start": "2025-01-03",
       "end": "2025-02-15",
       "status": "Pending..."
+    },
+    {
+      "id": "298",
+      "description": "Managing director",
+      "start": "2025-02-01",
+      "end": "2027-08-12",
+      "status": "in progress"
     }
   ]
 }
