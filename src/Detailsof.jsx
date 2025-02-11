@@ -56,7 +56,7 @@ const Detailsof = () => {
 
   return (
     <div className="container mx-auto p-6">
-      <h2 className="text-3xl font-bold text-gray-800 mb-6 text-center">Job Details</h2>
+      <h2 className="text-3xl font-bold text-center text-gray-800 mb-6">Job Details</h2>
 
       {loading ? (
         <div className="flex justify-center items-center">
@@ -87,7 +87,7 @@ const Detailsof = () => {
             </thead>
             <tbody>
               {data.map((item) => (
-                <tr key={item.id} className="text-center border border-gray-300 hover:bg-gray-50">
+                <tr key={item.id} className=" border border-gray-300 hover:bg-gray-50">
                   <td className="border border-gray-300 px-4 py-2">{item.id}</td>
                   <td className="border border-gray-300 px-4 py-2">{item.description}</td>
                   <td className="border border-gray-300 px-4 py-2">{item.start}</td>
@@ -95,7 +95,7 @@ const Detailsof = () => {
                   <td className={`border border-gray-300 px-4 py-2 ${setStatusColor(item.status)}`}>
                     {item.status}
                   </td>
-                  <td className="border border-gray-300 px-4 py-2 flex gap-2 justify-center">
+                  <td className="py-2 flex gap-5 justify-center">
                     <NavLink to={`/edit/${item.id}`} className="bg-blue-500 text-white px-4 py-1 rounded hover:bg-blue-600">
                       Edit
                     </NavLink>

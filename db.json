@@ -1,7 +1,7 @@
 {
   "details": [
     {
-      "id": "4",
+      "id": "1",
       "description": "Mechanics ",
       "start": "2025-10-28",
       "end": "2025-02-25",
@@ -9,7 +9,7 @@
       "deadline": "3434343"
     },
     {
-      "id": "68",
+      "id": "2",
       "description": "Nurse",
       "start": "2025-02-02",
       "end": "2025-02-20",
@@ -17,39 +17,67 @@
       "deadline": "439439839"
     },
     {
-      "id": "123",
+      "id": "3",
       "description": "Something",
       "start": "2025-02-11",
       "end": "2025-02-15",
       "status": "Rejected !"
     },
     {
-      "id": "122",
+      "id": "4",
       "description": "Hr manager",
       "start": "2025-02-07",
       "end": "2025-02-16",
       "status": "in progress"
     },
     {
-      "id": "1",
+      "id": "5",
       "description": "CEO",
       "start": "2025-02-12",
       "end": "2025-02-13",
       "status": "in review"
     },
     {
-      "id": "343",
+      "id": "6",
       "description": "HR",
       "start": "2025-01-03",
       "end": "2025-02-15",
       "status": "Pending..."
     },
     {
-      "id": "298",
+      "id": "7",
       "description": "Managing director",
       "start": "2025-02-01",
       "end": "2027-08-12",
       "status": "in progress"
+    },
+    {
+      "id": "8",
+      "description": "DIrector",
+      "start": "2025-02-01",
+      "end": "2025-02-20",
+      "status": "in progress"
+    },
+    {
+      "id": "9",
+      "description": "Project manager",
+      "start": "2025-02-07",
+      "end": "2025-07-24",
+      "status": "on going"
+    },
+    {
+      "id": "10",
+      "description": "Backend developer",
+      "start": "2025-02-01",
+      "end": "2025-02-28",
+      "status": "on going"
+    },
+    {
+      "id": "11",
+      "description": "Chairman",
+      "start": "2025-01-10",
+      "end": "2025-02-28",
+      "status": "Completed !!"
     }
   ]
 }
