@@ -79,5 +79,13 @@
       "end": "2025-02-19",
       "status": "on going"
     }
+  ],
+  "login": [
+    {
+      "id": "0d40",
+      "name": "Lawar Jmaes",
+      "email": "lawar@gmail.com",
+      "password": "12345678"
+    }
   ]
 }

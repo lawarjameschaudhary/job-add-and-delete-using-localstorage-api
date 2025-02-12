@@ -4,7 +4,9 @@ import { Route, Routes } from 'react-router-dom';
 import Edit from './Edit';
 import Add from './add';
 import DetailPage from './DetailPage';
-// import Home from './Home';
+import Login from './Login/Login';
+import Signup from './Login/Signup';
+// import { Toaster } from 'react-hot-toast';
 
 const Products = React.memo(() => {
   const [detail, setDetail] = useState([]);
@@ -25,9 +27,11 @@ const Products = React.memo(() => {
 
   return (
     <div className="flex justify-center h-full items-center">
+      {/* <Toaster/> */}
       <Routes>
-        {/* <Route path='/' element={<Home />} /> */}
       <Route path="/" element={<Detailsof />} />
+      <Route path='/login' element={<Login />} />
+      <Route path='/signup' element={<Signup />} />
       <Route path="/details/:description" element={<DetailPage />} />
         <Route path="/edit/:id" element={<Edit />} />
         <Route path="/add" element={<Add />} />
