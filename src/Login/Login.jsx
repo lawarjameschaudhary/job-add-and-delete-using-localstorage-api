@@ -52,7 +52,7 @@ const Login = () => {
         {/* Form-div */}
        <div className="w-[40%]">
        <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">
-          Sign in to your account
+          Sign in Here
         </h2>
         <form className="mt-8 space-y-6" onSubmit={handleSubmit}>
           <div className="rounded-md shadow-sm -space-y-px flex flex-col gap-5">
